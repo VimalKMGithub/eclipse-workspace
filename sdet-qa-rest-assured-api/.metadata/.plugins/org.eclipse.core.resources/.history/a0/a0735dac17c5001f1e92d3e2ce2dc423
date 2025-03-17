@@ -1,0 +1,10 @@
+https://reqres.in/api/users
+
+https://reqres.in/api/users?page=2
+
+https://reqres.in/api/users
+
+{
+    "name": "morpheus",
+    "job": "leader"
+}

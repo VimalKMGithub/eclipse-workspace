@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;opencartV121/docker-compose.yaml&apos; to &apos;docker-composesdet.yaml&apos;" description="Rename resource &apos;docker-compose.yaml&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="docker-compose.yaml" name="docker-composesdet.yaml" stamp="1735674917357" updateReferences="true"/>
+</session>

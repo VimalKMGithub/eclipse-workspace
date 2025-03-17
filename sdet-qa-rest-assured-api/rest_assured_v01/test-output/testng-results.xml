@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-12-28T18:17:52 IST" name="Default suite" finished-at="2024-12-28T18:17:57 IST" duration-ms="4556">
+    <groups>
+    </groups>
+    <test started-at="2024-12-28T18:17:52 IST" name="Default test" finished-at="2024-12-28T18:17:57 IST" duration-ms="4556">
+      <class name="day01.HTTPRequests">
+        <test-method signature="getUsers()[pri:1, instance:day01.HTTPRequests@9597028]" started-at="2024-12-28T18:17:52 IST" name="getUsers" finished-at="2024-12-28T18:17:55 IST" duration-ms="2415" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUsers -->
+        <test-method signature="createUser()[pri:2, instance:day01.HTTPRequests@9597028]" started-at="2024-12-28T18:17:55 IST" name="createUser" finished-at="2024-12-28T18:17:55 IST" duration-ms="833" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+        <test-method signature="updateUser()[pri:3, instance:day01.HTTPRequests@9597028]" started-at="2024-12-28T18:17:55 IST" name="updateUser" finished-at="2024-12-28T18:17:56 IST" depends-on-methods="day01.HTTPRequests.createUser" duration-ms="611" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateUser -->
+        <test-method signature="deleteUser()[pri:4, instance:day01.HTTPRequests@9597028]" started-at="2024-12-28T18:17:56 IST" name="deleteUser" finished-at="2024-12-28T18:17:57 IST" duration-ms="640" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUser -->
+      </class> <!-- day01.HTTPRequests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

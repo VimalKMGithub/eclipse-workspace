@@ -1,0 +1,20 @@
+https://reqres.in/api/users
+
+https://reqres.in/api/users?page=2
+
+https://reqres.in/api/users
+
+{
+    "name": "morpheus",
+    "job": "leader"
+}
+
+
+
+
+{
+    "name": "vimal",
+    "job": "student",
+    "id": "634",
+    "createdAt": "2024-12-28T12:30:28.161Z"
+}

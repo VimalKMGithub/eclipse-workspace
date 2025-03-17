@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="groupingsuite">
+	<test name="groupingtest">
+		<groups>
+			<run>
+				<!-- all sanity -->
+				<!--<include name="sanity"/>-->
+				
+				<!-- all regression -->
+				<!--<include name="regression"/>-->
+				
+				<!-- sanity only -->
+				<!--<include name="sanity"/>-->
+				<!--<exclude name="regression"/>-->
+				
+				<!-- regression only -->
+				<!--<include name="regression"/>-->
+				<!--<exclude name="sanity"/>-->
+				
+				<!-- both sanity & regression must include both -->
+				<include name="functional"/>
+			</run>
+		</groups>
+		<classes>
+			<class name="day44.LoginTest"/>
+			<class name="day44.SignUpTest"/>
+			<class name="day44.PaymentTest"/>
+		</classes>
+	</test>
+</suite>

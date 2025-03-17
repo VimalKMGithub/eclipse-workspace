@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;day38.HeadLessOptions&apos; to &apos;HeadLessTesting&apos;&#x0D;&#x0A;- Original project: &apos;selenium_sdet_qa&apos;&#x0D;&#x0A;- Original element: &apos;day38.HeadLessOptions&apos;&#x0D;&#x0A;- Renamed element: &apos;day38.HeadLessTesting&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;HeadLessOptions&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/test\/java=/optional=/true=/=/maven.pomderived=/true=/=/test=/true=/&lt;day38{HeadLessOptions.java[HeadLessOptions" matchStrategy="1" name="HeadLessTesting" qualified="false" references="true" similarDeclarations="false" stamp="1734857993471" textual="false" version="1.0"/>
+</session>
